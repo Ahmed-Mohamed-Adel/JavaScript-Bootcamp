@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    <script>
+      // Code One
+      document.getElementById("el").style.color = "red";
+      /*
+      The Code will not Work Because The Element not excit yet.
+      */
+    </script>
+    <script>
+      // Code Two
+      window.onload = function () {
+        document.getElementById("el").style.color = "red";
+      };
+      /*
+      The Code will not Work Because The Element not excit yet.
+      */
+    </script>
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+    <script>
+      // Code Three
+      document.getElementById("el").style.color = "red";
+      /*
+      This code will work because here is the best place to put the javascript code after defining the code so that the browser can read it
+      */
+    </script>
+  </body>
+</html>
