@@ -1,4 +1,5 @@
 // Challenge One
+// Challenge One
 let a = 10;
 
 if (a < 10) {
@@ -21,13 +22,13 @@ a < 10
   : console.log("Unkown");
 
 // Challenge Two
-let st = "Elzero Web School";
+let st = "Elzero ُElzero  ُElzero  ُElzero Web School";
 
 if ((st.length * 2).toString() === "34") {
   console.log("Good");
 }
 
-if (st.slice(-10, -9).toLowerCase() === "w") {
+if (st.charAt(st.search("W")).toLowerCase() === "w") {
   console.log("Good");
 }
 
