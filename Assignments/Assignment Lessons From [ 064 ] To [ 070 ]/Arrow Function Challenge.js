@@ -24,8 +24,8 @@ let calc = function (one, two, ...nums) {
 
 // Arrow Function
 let calc = (one, two, ...nums) => {
-  for (let i = 0; i < nums.length; i++) {
-    let result = 0;
+  for (let i = +false; i < nums.length; i++) {
+    let result = +false;
     if (nums[i] === 50) {
       result = one + two + nums[i];
       return result;
@@ -33,4 +33,4 @@ let calc = (one, two, ...nums) => {
   }
 };
 
-console.log(calc(10, myNumbers[0], myNumbers[1])); // 80
+console.log(calc(10, myNumbers[+false], myNumbers[+true])); // 80
