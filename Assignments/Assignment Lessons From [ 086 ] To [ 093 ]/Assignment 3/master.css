@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: bold 18px sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #2196f3;
+  width: 600px;
+  height: 300px;
+  padding: 20px;
+}
+
+form input {
+  outline: none;
+  width: 300px;
+  border: 2px solid #2196f3;
+  padding: 20px;
+  margin-bottom: 10px;
+}
