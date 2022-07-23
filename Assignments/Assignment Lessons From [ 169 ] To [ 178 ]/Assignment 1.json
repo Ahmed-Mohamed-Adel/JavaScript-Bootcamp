@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "author": "Ahmed",
+    "section": "health",
+    "title": "Corona Virus",
+    "content": "WHO warns of an increase in the number of infected people"
+  },
+  {
+    "id": 2,
+    "author": "Osama",
+    "section": "Policy",
+    "title": "war news",
+    "content": "Russo-Ukrainian war"
+  },
+  {
+    "id": 3,
+    "author": "Sayed",
+    "section": "football",
+    "title": "World Cup Qatar 2022",
+    "content": "Italy loses World Cup qualification"
+  },
+  {
+    "id": 4,
+    "author": "Amr",
+    "section": "Weather",
+    "title": "Today's weather",
+    "content": "High temperatures during the day and low at night"
+  },
+  {
+    "id": 5,
+    "author": "Mohamed",
+    "section": "Economie",
+    "title": "Currency news",
+    "content": "The depreciation of the Egyptian pound against the dollar"
+  }
+]
